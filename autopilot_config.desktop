@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application          # 类型，通常为 Application
+Name=飞控调参             # 菜单中显示的名称
+Comment=飞控调参  # 鼠标悬停时的提示
+Exec=/home/bitstream/autopilot_config/build/appautopilot_config    # 程序的完整路径
+Icon=/home/bitstream/autopilot_config/icon.png    # 图标文件的完整路径
+Categories=Utility;       # 程序在菜单中的分类，比如 Utility（工具）
+Terminal=false            # 是否在终端中运行

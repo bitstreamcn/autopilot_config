@@ -1,0 +1,64 @@
+{
+    "classes": [
+        {
+            "className": "DataTimeoutManager",
+            "lineNumber": 9,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "key",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 18,
+                    "name": "updateTimestamp",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "lineNumber": 21,
+                    "name": "clearAllTimestamps",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "DataTimeoutManager",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "key",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 25,
+                    "name": "dataTimeout",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 1,
+                    "lineNumber": 28,
+                    "name": "onTimeoutCheck",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "DataTimeoutManager.h",
+    "outputRevision": 69
+}

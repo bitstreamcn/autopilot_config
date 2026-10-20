@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="/qt/qml/autopilot_config/">
+    <file alias="Main.qml">M:/qt_projects/autopilot_config/Main.qml</file>
+    <file alias="LogControl.qml">M:/qt_projects/autopilot_config/LogControl.qml</file>
+    <file alias="ParameterControl.qml">M:/qt_projects/autopilot_config/ParameterControl.qml</file>
+    <file alias="ImuControl.qml">M:/qt_projects/autopilot_config/ImuControl.qml</file>
+    <file alias="NumericKeyboard.qml">M:/qt_projects/autopilot_config/NumericKeyboard.qml</file>
+    <file alias="RemoteControl.qml">M:/qt_projects/autopilot_config/RemoteControl.qml</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,10 @@
+--resource
+M:/qt_projects/autopilot_config/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/.qt/rcc/qmake_autopilot_config.qrc
+--resource
+M:/qt_projects/autopilot_config/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/.qt/rcc/appautopilot_config_raw_qml_0.qrc
+/qt/qml/autopilot_config/Main.qml
+/qt/qml/autopilot_config/LogControl.qml
+/qt/qml/autopilot_config/ParameterControl.qml
+/qt/qml/autopilot_config/ImuControl.qml
+/qt/qml/autopilot_config/NumericKeyboard.qml
+/qt/qml/autopilot_config/RemoteControl.qml

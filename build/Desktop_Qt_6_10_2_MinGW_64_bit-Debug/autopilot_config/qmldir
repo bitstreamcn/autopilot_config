@@ -1,0 +1,11 @@
+module autopilot_config
+typeinfo appautopilot_config.qmltypes
+prefer :/qt/qml/autopilot_config/
+Main 254.0 Main.qml
+LogControl 254.0 LogControl.qml
+ParameterControl 254.0 ParameterControl.qml
+ImuControl 254.0 ImuControl.qml
+NumericKeyboard 254.0 NumericKeyboard.qml
+RemoteControl 254.0 RemoteControl.qml
+depends QtQuick
+

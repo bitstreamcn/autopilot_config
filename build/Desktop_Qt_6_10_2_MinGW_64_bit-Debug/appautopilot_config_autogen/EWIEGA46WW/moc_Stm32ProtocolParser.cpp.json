@@ -1,0 +1,382 @@
+{
+    "classes": [
+        {
+            "className": "Stm32ProtocolParser",
+            "lineNumber": 8,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "data",
+                            "type": "QByteArray"
+                        }
+                    ],
+                    "index": 14,
+                    "lineNumber": 15,
+                    "name": "processData",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "data",
+                            "type": "QVariant"
+                        }
+                    ],
+                    "index": 15,
+                    "lineNumber": 16,
+                    "name": "processDataFromVariant",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "Stm32ProtocolParser",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "data",
+                            "type": "QByteArray"
+                        },
+                        {
+                            "name": "dataString",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "parseType",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 19,
+                    "name": "dataParsed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "reason",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "data",
+                            "type": "QByteArray"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 20,
+                    "name": "protocolError",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "value",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "dataType",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 21,
+                    "name": "configDataReceived",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "ax",
+                            "type": "float"
+                        },
+                        {
+                            "name": "ay",
+                            "type": "float"
+                        },
+                        {
+                            "name": "az",
+                            "type": "float"
+                        },
+                        {
+                            "name": "gx",
+                            "type": "float"
+                        },
+                        {
+                            "name": "gy",
+                            "type": "float"
+                        },
+                        {
+                            "name": "gz",
+                            "type": "float"
+                        }
+                    ],
+                    "index": 3,
+                    "lineNumber": 22,
+                    "name": "imuAccelGyroReceived",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "roll",
+                            "type": "float"
+                        },
+                        {
+                            "name": "pitch",
+                            "type": "float"
+                        },
+                        {
+                            "name": "yaw",
+                            "type": "float"
+                        }
+                    ],
+                    "index": 4,
+                    "lineNumber": 23,
+                    "name": "imuAttitudeReceived",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "alt",
+                            "type": "float"
+                        },
+                        {
+                            "name": "v",
+                            "type": "float"
+                        },
+                        {
+                            "name": "accelUp",
+                            "type": "float"
+                        }
+                    ],
+                    "index": 5,
+                    "lineNumber": 24,
+                    "name": "imuAltVelocityReceived",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "thr",
+                            "type": "float"
+                        },
+                        {
+                            "name": "ctrlRoll",
+                            "type": "float"
+                        },
+                        {
+                            "name": "ctrlPitch",
+                            "type": "float"
+                        },
+                        {
+                            "name": "ctrlYaw",
+                            "type": "float"
+                        }
+                    ],
+                    "index": 6,
+                    "lineNumber": 25,
+                    "name": "controlThrReceived",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "x",
+                            "type": "float"
+                        },
+                        {
+                            "name": "y",
+                            "type": "float"
+                        },
+                        {
+                            "name": "vx",
+                            "type": "float"
+                        },
+                        {
+                            "name": "vy",
+                            "type": "float"
+                        }
+                    ],
+                    "index": 7,
+                    "lineNumber": 26,
+                    "name": "locationDataReceived",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "tx",
+                            "type": "float"
+                        },
+                        {
+                            "name": "ty",
+                            "type": "float"
+                        },
+                        {
+                            "name": "x",
+                            "type": "float"
+                        },
+                        {
+                            "name": "y",
+                            "type": "float"
+                        }
+                    ],
+                    "index": 8,
+                    "lineNumber": 27,
+                    "name": "flowDataReceived",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "destAlt",
+                            "type": "float"
+                        },
+                        {
+                            "name": "currentAlt",
+                            "type": "float"
+                        }
+                    ],
+                    "index": 9,
+                    "lineNumber": 28,
+                    "name": "destAltDataReceived",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "data",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 10,
+                    "lineNumber": 29,
+                    "name": "logFileDataReceived",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "roll",
+                            "type": "float"
+                        },
+                        {
+                            "name": "pitch",
+                            "type": "float"
+                        },
+                        {
+                            "name": "yaw",
+                            "type": "float"
+                        },
+                        {
+                            "name": "throttle",
+                            "type": "float"
+                        }
+                    ],
+                    "index": 11,
+                    "lineNumber": 30,
+                    "name": "rcDataReceived",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "freq",
+                            "type": "float"
+                        }
+                    ],
+                    "index": 12,
+                    "lineNumber": 31,
+                    "name": "freqDataReceived",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "fixType",
+                            "type": "int"
+                        },
+                        {
+                            "name": "numSV",
+                            "type": "int"
+                        },
+                        {
+                            "name": "fLon",
+                            "type": "float"
+                        },
+                        {
+                            "name": "fLat",
+                            "type": "float"
+                        },
+                        {
+                            "name": "hAcc",
+                            "type": "qint64"
+                        },
+                        {
+                            "name": "ds",
+                            "type": "float"
+                        },
+                        {
+                            "name": "dx",
+                            "type": "float"
+                        },
+                        {
+                            "name": "dy",
+                            "type": "float"
+                        },
+                        {
+                            "name": "hds",
+                            "type": "float"
+                        },
+                        {
+                            "name": "hx",
+                            "type": "float"
+                        },
+                        {
+                            "name": "hy",
+                            "type": "float"
+                        }
+                    ],
+                    "index": 13,
+                    "lineNumber": 32,
+                    "name": "gpsDataReceived",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "Stm32ProtocolParser.h",
+    "outputRevision": 69
+}
