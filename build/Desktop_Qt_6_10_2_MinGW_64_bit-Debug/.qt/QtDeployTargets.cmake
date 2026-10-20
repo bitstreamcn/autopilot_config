@@ -1,3 +1,0 @@
-set(__QT_DEPLOY_TARGET_appautopilot_config_FILE M:/qt_projects/autopilot_config/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/appautopilot_config.exe)
-set(__QT_DEPLOY_TARGET_appautopilot_config_TYPE EXECUTABLE)
-set(__QT_DEPLOY_TARGET_appautopilot_config_RUNTIME_DLLS D:/Qt6/6.10.2/mingw_64/bin/Qt6VirtualKeyboard.dll;D:/Qt6/6.10.2/mingw_64/bin/Qt6Concurrent.dll;D:/Qt6/6.10.2/mingw_64/bin/Qt6Quick.dll;D:/Qt6/6.10.2/mingw_64/bin/Qt6OpenGL.dll;D:/Qt6/6.10.2/mingw_64/bin/Qt6QmlMeta.dll;D:/Qt6/6.10.2/mingw_64/bin/Qt6QmlModels.dll;D:/Qt6/6.10.2/mingw_64/bin/Qt6QmlWorkerScript.dll;D:/Qt6/6.10.2/mingw_64/bin/Qt6Qml.dll;D:/Qt6/6.10.2/mingw_64/bin/Qt6Network.dll;D:/Qt6/6.10.2/mingw_64/bin/Qt6Gui.dll;D:/Qt6/6.10.2/mingw_64/bin/Qt6Core.dll)
